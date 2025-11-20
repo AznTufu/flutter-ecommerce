@@ -23,7 +23,7 @@ class OrderLocalDataSource {
       final List<dynamic> ordersJson = jsonDecode(ordersString);
       return ordersJson.map((json) => Order.fromJson(json)).toList();
     } catch (e) {
-      print('Erreur lors du parsing des commandes: $e');
+
       return [];
     }
   }

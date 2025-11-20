@@ -9,7 +9,7 @@ class BiometricService {
     try {
       return await _auth.canCheckBiometrics && await _auth.isDeviceSupported();
     } catch (e) {
-      print('Erreur lors de la vérification de la biométrie: $e');
+
       return false;
     }
   }
@@ -19,7 +19,7 @@ class BiometricService {
     try {
       return await _auth.getAvailableBiometrics();
     } catch (e) {
-      print('Erreur lors de la récupération des types de biométrie: $e');
+      // Erreur lors de la récupération des types de biométrie: $e
       return [];
     }
   }
@@ -42,11 +42,11 @@ class BiometricService {
           biometricOnly: true,
         ),
       );
-    } on PlatformException catch (e) {
-      print('Erreur d\'authentification biométrique: ${e.message}');
+    } on PlatformException {
+      // Erreur d'authentification biométrique
       return false;
     } catch (e) {
-      print('Erreur lors de l\'authentification: $e');
+      // Erreur lors de l'authentification: $e
       return false;
     }
   }

@@ -41,7 +41,7 @@ class OrderActions {
       if (result is Success<Order>) {
         createdOrder = result.data;
       } else {
-        print('Erreur création commande: ${(result as Failure).message}');
+
         createdOrder = null;
       }
       if (createdOrder != null) {
@@ -49,7 +49,7 @@ class OrderActions {
       }
       return createdOrder;
     } catch (error) {
-      print('Exception: $error');
+      // Exception: $error
       return null;
     }
   }

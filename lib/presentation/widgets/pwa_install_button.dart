@@ -1,10 +1,9 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import '../../core/utils/platform_helper.dart';
-import 'dart:js_interop' as js;
+import 'pwa_install_button_stub.dart'
+  if (dart.library.js_interop) 'pwa_install_button_web.dart';
 
-@js.JS('installPWA')
-external void _installPWAJS();
 class PWAInstallButton extends StatefulWidget {
   const PWAInstallButton({super.key});
 
@@ -34,7 +33,7 @@ class _PWAInstallButtonState extends State<PWAInstallButton> {
     if (!kIsWeb) return;
 
     try {
-      _installPWAJS();
+      callInstallPWA();
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(

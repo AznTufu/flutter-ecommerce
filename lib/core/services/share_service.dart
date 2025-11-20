@@ -32,7 +32,7 @@ $shareUrl
         await Share.share(shareText);
       }
     } catch (e) {
-      print('Erreur lors du partage: $e');
+
       rethrow;
     }
   }
