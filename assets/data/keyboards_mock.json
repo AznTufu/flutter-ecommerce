@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Keychron Q1 Pro",
+    "price": 189.99,
+    "category": "75% Layout",
+    "description": "Clavier mécanique sans fil QMK/VIA personnalisable avec cadre CNC en aluminium, switches hot-swappable et rétroéclairage RGB. Parfait pour les passionnés de mécanique.",
+    "thumbnail": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800"
+    ],
+    "stock": 15,
+    "switches": "Gateron Pro Brown",
+    "keycaps": "PBT Double-Shot"
+  },
+  {
+    "id": "2",
+    "title": "GMMK Pro",
+    "price": 169.99,
+    "category": "75% Layout",
+    "description": "Clavier modulaire avec rotary encoder, switches hot-swappable, et structure en aluminium. Configuration complète via logiciel Glorious Core.",
+    "thumbnail": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800",
+      "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=800"
+    ],
+    "stock": 22,
+    "switches": "Glorious Panda",
+    "keycaps": "ABS Shine-Through"
+  },
+  {
+    "id": "3",
+    "title": "Ducky One 3 SF",
+    "price": 139.99,
+    "category": "65% Layout",
+    "description": "Clavier compact 65% avec switches Cherry MX, keycaps PBT, et éclairage RGB personnalisable. Design épuré et qualité de frappe exceptionnelle.",
+    "thumbnail": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800"
+    ],
+    "stock": 30,
+    "switches": "Cherry MX Red",
+    "keycaps": "PBT Seamless"
+  },
+  {
+    "id": "4",
+    "title": "Anne Pro 2",
+    "price": 89.99,
+    "category": "60% Layout",
+    "description": "Clavier mécanique Bluetooth compact 60% avec éclairage RGB, connexion sans fil triple mode et batterie longue durée. Idéal pour la portabilité.",
+    "thumbnail": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800",
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800"
+    ],
+    "stock": 45,
+    "switches": "Gateron Brown",
+    "keycaps": "PBT"
+  },
+  {
+    "id": "5",
+    "title": "NuPhy Air75",
+    "price": 129.99,
+    "category": "75% Layout",
+    "description": "Clavier ultra-fin avec profil low-profile, triple connectivité (Bluetooth/2.4GHz/USB-C), autonomie exceptionnelle et design premium en aluminium.",
+    "thumbnail": "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=800",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800"
+    ],
+    "stock": 18,
+    "switches": "NuPhy Low-Profile Gateron",
+    "keycaps": "PBT Low-Profile"
+  },
+  {
+    "id": "6",
+    "title": "Varmilo VA87M",
+    "price": 159.99,
+    "category": "TKL Layout",
+    "description": "Clavier TKL premium avec keycaps Dye-Sub PBT de haute qualité, construction robuste et designs artistiques uniques. Excellence reconnue depuis des années.",
+    "thumbnail": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800"
+    ],
+    "stock": 12,
+    "switches": "Cherry MX Silent Red",
+    "keycaps": "PBT Dye-Sublimated"
+  },
+  {
+    "id": "7",
+    "title": "KBDfans Tofu65",
+    "price": 199.99,
+    "category": "65% Layout",
+    "description": "Kit DIY personnalisable avec boîtier en aluminium anodisé, PCB hot-swap, support QMK/VIA. Pour les passionnés cherchant la personnalisation ultime.",
+    "thumbnail": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800"
+    ],
+    "stock": 8,
+    "switches": "Non inclus (Hot-Swap)",
+    "keycaps": "Non inclus"
+  },
+  {
+    "id": "8",
+    "title": "Logitech MX Mechanical",
+    "price": 149.99,
+    "category": "Full Size",
+    "description": "Clavier mécanique professionnel avec rétroéclairage intelligent, connexion multi-dispositifs, et switches tactiles. Parfait pour la productivité.",
+    "thumbnail": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800",
+      "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=800"
+    ],
+    "stock": 35,
+    "switches": "Logitech Tactile Quiet",
+    "keycaps": "ABS Low-Profile"
+  }
+]

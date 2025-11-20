@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15572931540",
+    "project_id": "keyboardshop-flutter",
+    "storage_bucket": "keyboardshop-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15572931540:android:85ce25990c1b5f11acbc41",
+        "android_client_info": {
+          "package_name": "com.example.flutter_rendu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH8Gbrp_v49l0pkYSyjLipntWXDNpl2Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
