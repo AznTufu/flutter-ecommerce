@@ -5,10 +5,17 @@
   "installCommand": "echo 'Skipping install, using GitHub Actions build'",
   "framework": null,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/canvaskit/:path*", "destination": "/canvaskit/:path*" },
+    { "source": "/flutter_bootstrap.js", "destination": "/flutter_bootstrap.js" },
+    { "source": "/flutter.js", "destination": "/flutter.js" },
+    { "source": "/main.dart.js", "destination": "/main.dart.js" },
+    { "source": "/:path*.js", "destination": "/:path*.js" },
+    { "source": "/:path*.json", "destination": "/:path*.json" },
+    { "source": "/favicon.png", "destination": "/favicon.png" },
+    { "source": "/manifest.json", "destination": "/manifest.json" },
+    { "source": "/icons/:path*", "destination": "/icons/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
     {
