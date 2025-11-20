@@ -295,9 +295,9 @@ The app uses **go_router** with the following routes:
 |-------|-------------|---------------|
 | `/login` | Login screen | No |
 | `/register` | Registration screen | No |
-| `/catalog` | Product catalog (home) | Yes |
-| `/product/:id` | Product details | Yes |
-| `/cart` | Shopping cart | Yes |
+| `/catalog` | Product catalog (home) | No |
+| `/product/:id` | Product details | No |
+| `/cart` | Shopping cart | No |
 | `/checkout` | Checkout process | Yes |
 | `/orders` | Order history | Yes |
 | `/profile` | User profile | Yes |
